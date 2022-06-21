@@ -10,10 +10,19 @@ https://simple.wikipedia.org/wiki/OSI_model
 
 ## 7 layers
 
-- (7) Application (top-most)
-- (6) Presentation
-- (5) Session
-- (4) Transport
-- (3) Network
-- (2) Data Link
-- (1) Physical (bottom-most)
+Host layers:
+
+- (7) Application (top-most; UI)
+- (6) Presentation (translates data to/from UI, security encryption)
+- (5) Session (client/server request/response communication, sessions)
+- (4) Transport (reliability, quality, flow control, security(?), not actually sending)
+
+Media layers:
+
+- (3) Network (plan data path itinerary + organize/reassemble data, logical addressing)
+- (2) Data Link (disassemble data into frames, check/correct errors, physical addressing)
+- (1) Physical (bottom-most; hardware)
+
+The process goes from the top-level concerns down to the bottom-level and back up:
+
+7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
