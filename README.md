@@ -4,9 +4,11 @@ Just one of the things I'm learning. https://github.com/hchiam/learning
 
 OSI model = Open Systems Interconnection model.
 
-https://www.reddit.com/r/computing/comments/1o5cmp/eli5_osi_layer_model
+- https://www.reddit.com/r/computing/comments/1o5cmp/eli5_osi_layer_model
 
-https://simple.wikipedia.org/wiki/OSI_model
+- https://simple.wikipedia.org/wiki/OSI_model
+
+- https://en.wikipedia.org/wiki/OSI_model#Comparison_to_other_networking_suites
 
 ## 7 layers
 
@@ -26,3 +28,5 @@ Media layers:
 The process goes from the top-level concerns down to the bottom-level and back up:
 
 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
+
+Here's a list of which parts of the OSI model different protocols correspond to: https://en.wikipedia.org/wiki/OSI_model#Comparison_to_other_networking_suites (note that some things like TCP/IP and security span different layers).
