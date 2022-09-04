@@ -1,4 +1,4 @@
-# Learning the OSI modal
+# Learning the OSI model
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
