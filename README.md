@@ -1,4 +1,4 @@
-# Learning the OSI model
+# Learning the OSI model (and TCP/IP model)
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
@@ -35,8 +35,8 @@ Here's a list of which parts of the OSI model different protocols correspond to:
 
 - OSI model: https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/ and https://www.youtube.com/watch?v=dV8mjZd1OtU - the OSI model helps you troubleshoot network problems
   - data > segments > packets > frames > bit stream
-- TCP/IP model: https://www.geeksforgeeks.org/tcp-ip-model/ (BTW Internet protocol suite = TCP/IP) (BTW TCP/IP model is closer than OSI model to modern internet)
-  1. Process/App Layer (OSI layer 7?)
-  2. Host-to-Host/Transport Layer (OSI layer 4?)
-  3. Internet Layer (OSI layer 3?)
-  4. Network Access/Link Layer (OSI layer 3/2?)
+- TCP/IP model: https://www.geeksforgeeks.org/tcp-ip-model/ (BTW Internet protocol suite = TCP/IP) (BTW TCP/IP model is closer than OSI model to modern internet) and https://www.youtube.com/watch?v=F5rni9fr1yE
+  1. Process/App Layer (OSI layers 7+6+5 = Application + Presentation + Session)
+  2. Host-to-Host/Transport Layer (OSI layer 5 = Transport)
+  3. Internet Layer (OSI layer 3 = Network)
+  4. Network Access/Link Layer (OSI layers 2+1 = Datalink + Physical)
