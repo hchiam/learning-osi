@@ -30,3 +30,12 @@ The process goes from the top-level concerns down to the bottom-level and back u
 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7
 
 Here's a list of which parts of the OSI model different protocols correspond to: https://en.wikipedia.org/wiki/OSI_model#Comparison_to_other_networking_suites (note that some things like TCP/IP and security span different layers).
+
+## Further reading
+
+- OSI model: https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/ helps you troubleshoot network problems
+- TCP/IP model: https://www.geeksforgeeks.org/tcp-ip-model/ (BTW Internet protocol suite = TCP/IP) (BTW TCP/IP model is closer than OSI model to modern internet)
+  1. Process/App Layer
+  2. Host-to-Host/Transport Layer
+  3. Internet Layer
+  4. Network Access/Link Layer
