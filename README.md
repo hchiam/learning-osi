@@ -14,15 +14,15 @@ OSI model = Open Systems Interconnection model.
 
 Host layers:
 
-- (7) Application (top-most; UI)
-- (6) Presentation (translates data to/from UI, security encryption)
-- (5) Session (client/server request/response communication, sessions)
-- (4) Transport (reliability, quality, flow control, security(?), not actually sending)
+- (7) Application (top-most; UI, cookies, etc.)
+- (6) Presentation (translates data to/from UI, security encryption/(de)compression/encoding)
+- (5) Session (client/server request/response communication, open/close sessions)
+- (4) Transport (reliability, quality, flow control, security(?), not actually sending. segmentation + ports.)
 
 Media layers:
 
-- (3) Network (plan data path itinerary + organize/reassemble data, logical addressing)
-- (2) Data Link (disassemble data into frames, check/correct errors, physical addressing)
+- (3) Network (plan data path itinerary + organize/reassemble data, logical addressing. packets + source/destination IPs)
+- (2) Data Link (disassemble data into frames, check/correct errors, physical addressing. frames + source/destination MAC address)
 - (1) Physical (bottom-most; hardware)
 
 The process goes from the top-level concerns down to the bottom-level and back up:
@@ -33,9 +33,10 @@ Here's a list of which parts of the OSI model different protocols correspond to:
 
 ## Further reading
 
-- OSI model: https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/ helps you troubleshoot network problems
+- OSI model: https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/ and https://www.youtube.com/watch?v=dV8mjZd1OtU - the OSI model helps you troubleshoot network problems
+  - data > segments > packets > frames > bit stream
 - TCP/IP model: https://www.geeksforgeeks.org/tcp-ip-model/ (BTW Internet protocol suite = TCP/IP) (BTW TCP/IP model is closer than OSI model to modern internet)
-  1. Process/App Layer
-  2. Host-to-Host/Transport Layer
-  3. Internet Layer
-  4. Network Access/Link Layer
+  1. Process/App Layer (OSI layer 7?)
+  2. Host-to-Host/Transport Layer (OSI layer 4?)
+  3. Internet Layer (OSI layer 3?)
+  4. Network Access/Link Layer (OSI layer 3/2?)
