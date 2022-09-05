@@ -40,3 +40,15 @@ Here's a list of which parts of the OSI model different protocols correspond to:
   2. Host-to-Host/Transport Layer (OSI layer 5 = Transport)
   3. Internet Layer (OSI layer 3 = Network)
   4. Network Access/Link Layer (OSI layers 2+1 = Datalink + Physical)
+
+TCP/IP model:
+
+1. Process/App Layer (HTTP, HTTPS, FTP, SMTP, SSH, DNS, DHCP, ...)
+   - port
+2. Host-to-Host/Transport Layer (TCP, UDP)
+   - packets (and reassembly meta info)
+3. Internet Layer (IP, ARP, RARP, IGMP)
+   - add source and destination IP addresses
+4. Network Access/Link Layer (hardware)
+   - assign MAC addresses of sender and receiver to each packet
+   - convert to 1's and 0's
