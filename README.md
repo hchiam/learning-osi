@@ -12,7 +12,7 @@ OSI model = Open Systems Interconnection model.
 
 ## Simple practical perspective
 
-My summary of "Practical Networking" videos https://www.youtube.com/watch?v=LkolbURrtTs and https://www.youtube.com/watch?v=0aGqGKrRE0g
+My summary of "Practical Networking" videos https://www.youtube.com/watch?v=LkolbURrtTs and https://www.youtube.com/watch?v=0aGqGKrRE0g:
 
 1) Physical layer = bits ("physics")
 2) Data Link layer = hops (MACs, e.g. router MACs). Add header to data = data is now called a "frame".
