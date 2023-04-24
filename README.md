@@ -15,9 +15,9 @@ OSI model = Open Systems Interconnection model.
 My summary of "Practical Networking" videos https://www.youtube.com/watch?v=LkolbURrtTs and https://www.youtube.com/watch?v=0aGqGKrRE0g
 
 1) Physical layer = bits ("physics")
-2) Data Link layer = hops (MACs, e.g. router MACs) add header = "frame"
-3) Networking layer = ends (IPs, e.g. server IPs), add header = "packet"
-4) Transport layer = services (e.g. ports/programs, like at TCP/UDP/etc ports), add header = "segment"
+2) Data Link layer = hops (MACs, e.g. router MACs). Add header to data = data is now called a "frame".
+3) Networking layer = ends (IPs, e.g. server IPs). Add header to data = data is now called a "packet".
+4) Transport layer = services (e.g. ports/programs, like at TCP/UDP/etc ports). Add header to data = data is now called a "segment".
 5) 5+6+7 Application layer = data
   - under TCP/IP model for networking, "Application layer" covers (Session layer, Presentation layer, Application layer) and can be conceptually grouped together in practice, left to specific implementations
   - btw, layers 1 (Physical) and 2 (Data Link) are also groupable under "Network Access layer"; layer 3 (Network) rename-able to "Internet layer": layer 4 (Transport) rename-able to "Host to Host layer".
